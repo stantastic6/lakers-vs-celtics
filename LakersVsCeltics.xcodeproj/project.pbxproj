@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6864E5819BE590E00E7E622 /* celtics.png in Resources */ = {isa = PBXBuildFile; fileRef = F6864E5419BE590E00E7E622 /* celtics.png */; };
+		F6864E5919BE590E00E7E622 /* celtics@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6864E5519BE590E00E7E622 /* celtics@2x.png */; };
+		F6864E5A19BE590E00E7E622 /* lakers.png in Resources */ = {isa = PBXBuildFile; fileRef = F6864E5619BE590E00E7E622 /* lakers.png */; };
+		F6864E5B19BE590E00E7E622 /* lakers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6864E5719BE590E00E7E622 /* lakers@2x.png */; };
+		F69BD8A319BE31D8003BA6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD8A219BE31D8003BA6AF /* Foundation.framework */; };
+		F69BD8A519BE31D8003BA6AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD8A419BE31D8003BA6AF /* CoreGraphics.framework */; };
+		F69BD8A719BE31D8003BA6AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD8A619BE31D8003BA6AF /* UIKit.framework */; };
+		F69BD8AD19BE31D8003BA6AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F69BD8AB19BE31D8003BA6AF /* InfoPlist.strings */; };
+		F69BD8AF19BE31D8003BA6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BD8AE19BE31D8003BA6AF /* main.m */; };
+		F69BD8B319BE31D8003BA6AF /* SLJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BD8B219BE31D8003BA6AF /* SLJAppDelegate.m */; };
+		F69BD8B619BE31D8003BA6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69BD8B419BE31D8003BA6AF /* Main.storyboard */; };
+		F69BD8B919BE31D8003BA6AF /* SLJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BD8B819BE31D8003BA6AF /* SLJViewController.m */; };
+		F69BD8BB19BE31D8003BA6AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69BD8BA19BE31D8003BA6AF /* Images.xcassets */; };
+		F69BD8C219BE31D8003BA6AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD8C119BE31D8003BA6AF /* XCTest.framework */; };
+		F69BD8C319BE31D8003BA6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD8A219BE31D8003BA6AF /* Foundation.framework */; };
+		F69BD8C419BE31D8003BA6AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD8A619BE31D8003BA6AF /* UIKit.framework */; };
+		F69BD8CC19BE31D8003BA6AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F69BD8CA19BE31D8003BA6AF /* InfoPlist.strings */; };
+		F69BD8CE19BE31D8003BA6AF /* LakersVsCelticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BD8CD19BE31D8003BA6AF /* LakersVsCelticsTests.m */; };
+		F6BB193B19BE7119007DCF86 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = F6BB193A19BE7119007DCF86 /* icon-120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69BD8C519BE31D8003BA6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69BD89719BE31D8003BA6AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69BD89E19BE31D8003BA6AF;
+			remoteInfo = LakersVsCeltics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6864E5419BE590E00E7E622 /* celtics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celtics.png; sourceTree = "<group>"; };
+		F6864E5519BE590E00E7E622 /* celtics@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "celtics@2x.png"; sourceTree = "<group>"; };
+		F6864E5619BE590E00E7E622 /* lakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lakers.png; sourceTree = "<group>"; };
+		F6864E5719BE590E00E7E622 /* lakers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lakers@2x.png"; sourceTree = "<group>"; };
+		F69BD89F19BE31D8003BA6AF /* LakersVsCeltics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LakersVsCeltics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BD8A219BE31D8003BA6AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F69BD8A419BE31D8003BA6AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F69BD8A619BE31D8003BA6AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F69BD8AA19BE31D8003BA6AF /* LakersVsCeltics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LakersVsCeltics-Info.plist"; sourceTree = "<group>"; };
+		F69BD8AC19BE31D8003BA6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F69BD8AE19BE31D8003BA6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69BD8B019BE31D8003BA6AF /* LakersVsCeltics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LakersVsCeltics-Prefix.pch"; sourceTree = "<group>"; };
+		F69BD8B119BE31D8003BA6AF /* SLJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLJAppDelegate.h; sourceTree = "<group>"; };
+		F69BD8B219BE31D8003BA6AF /* SLJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLJAppDelegate.m; sourceTree = "<group>"; };
+		F69BD8B519BE31D8003BA6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69BD8B719BE31D8003BA6AF /* SLJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLJViewController.h; sourceTree = "<group>"; };
+		F69BD8B819BE31D8003BA6AF /* SLJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLJViewController.m; sourceTree = "<group>"; };
+		F69BD8BA19BE31D8003BA6AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F69BD8C019BE31D8003BA6AF /* LakersVsCelticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LakersVsCelticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BD8C119BE31D8003BA6AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F69BD8C919BE31D8003BA6AF /* LakersVsCelticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LakersVsCelticsTests-Info.plist"; sourceTree = "<group>"; };
+		F69BD8CB19BE31D8003BA6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F69BD8CD19BE31D8003BA6AF /* LakersVsCelticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LakersVsCelticsTests.m; sourceTree = "<group>"; };
+		F6BB193A19BE7119007DCF86 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69BD89C19BE31D8003BA6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD8A519BE31D8003BA6AF /* CoreGraphics.framework in Frameworks */,
+				F69BD8A719BE31D8003BA6AF /* UIKit.framework in Frameworks */,
+				F69BD8A319BE31D8003BA6AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD8BD19BE31D8003BA6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD8C219BE31D8003BA6AF /* XCTest.framework in Frameworks */,
+				F69BD8C419BE31D8003BA6AF /* UIKit.framework in Frameworks */,
+				F69BD8C319BE31D8003BA6AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6864E5319BE590E00E7E622 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB193A19BE7119007DCF86 /* icon-120.png */,
+				F6864E5419BE590E00E7E622 /* celtics.png */,
+				F6864E5519BE590E00E7E622 /* celtics@2x.png */,
+				F6864E5619BE590E00E7E622 /* lakers.png */,
+				F6864E5719BE590E00E7E622 /* lakers@2x.png */,
+			);
+			name = Resources;
+			path = LakersVsCeltics/Resources;
+			sourceTree = "<group>";
+		};
+		F69BD89619BE31D8003BA6AF = {
+			isa = PBXGroup;
+			children = (
+				F6864E5319BE590E00E7E622 /* Resources */,
+				F69BD8A819BE31D8003BA6AF /* LakersVsCeltics */,
+				F69BD8C719BE31D8003BA6AF /* LakersVsCelticsTests */,
+				F69BD8A119BE31D8003BA6AF /* Frameworks */,
+				F69BD8A019BE31D8003BA6AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69BD8A019BE31D8003BA6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD89F19BE31D8003BA6AF /* LakersVsCeltics.app */,
+				F69BD8C019BE31D8003BA6AF /* LakersVsCelticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69BD8A119BE31D8003BA6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD8A219BE31D8003BA6AF /* Foundation.framework */,
+				F69BD8A419BE31D8003BA6AF /* CoreGraphics.framework */,
+				F69BD8A619BE31D8003BA6AF /* UIKit.framework */,
+				F69BD8C119BE31D8003BA6AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69BD8A819BE31D8003BA6AF /* LakersVsCeltics */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD8B119BE31D8003BA6AF /* SLJAppDelegate.h */,
+				F69BD8B219BE31D8003BA6AF /* SLJAppDelegate.m */,
+				F69BD8B419BE31D8003BA6AF /* Main.storyboard */,
+				F69BD8B719BE31D8003BA6AF /* SLJViewController.h */,
+				F69BD8B819BE31D8003BA6AF /* SLJViewController.m */,
+				F69BD8BA19BE31D8003BA6AF /* Images.xcassets */,
+				F69BD8A919BE31D8003BA6AF /* Supporting Files */,
+			);
+			path = LakersVsCeltics;
+			sourceTree = "<group>";
+		};
+		F69BD8A919BE31D8003BA6AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD8AA19BE31D8003BA6AF /* LakersVsCeltics-Info.plist */,
+				F69BD8AB19BE31D8003BA6AF /* InfoPlist.strings */,
+				F69BD8AE19BE31D8003BA6AF /* main.m */,
+				F69BD8B019BE31D8003BA6AF /* LakersVsCeltics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F69BD8C719BE31D8003BA6AF /* LakersVsCelticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD8CD19BE31D8003BA6AF /* LakersVsCelticsTests.m */,
+				F69BD8C819BE31D8003BA6AF /* Supporting Files */,
+			);
+			path = LakersVsCelticsTests;
+			sourceTree = "<group>";
+		};
+		F69BD8C819BE31D8003BA6AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD8C919BE31D8003BA6AF /* LakersVsCelticsTests-Info.plist */,
+				F69BD8CA19BE31D8003BA6AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69BD89E19BE31D8003BA6AF /* LakersVsCeltics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BD8D119BE31D8003BA6AF /* Build configuration list for PBXNativeTarget "LakersVsCeltics" */;
+			buildPhases = (
+				F69BD89B19BE31D8003BA6AF /* Sources */,
+				F69BD89C19BE31D8003BA6AF /* Frameworks */,
+				F69BD89D19BE31D8003BA6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LakersVsCeltics;
+			productName = LakersVsCeltics;
+			productReference = F69BD89F19BE31D8003BA6AF /* LakersVsCeltics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69BD8BF19BE31D8003BA6AF /* LakersVsCelticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BD8D419BE31D8003BA6AF /* Build configuration list for PBXNativeTarget "LakersVsCelticsTests" */;
+			buildPhases = (
+				F69BD8BC19BE31D8003BA6AF /* Sources */,
+				F69BD8BD19BE31D8003BA6AF /* Frameworks */,
+				F69BD8BE19BE31D8003BA6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69BD8C619BE31D8003BA6AF /* PBXTargetDependency */,
+			);
+			name = LakersVsCelticsTests;
+			productName = LakersVsCelticsTests;
+			productReference = F69BD8C019BE31D8003BA6AF /* LakersVsCelticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69BD89719BE31D8003BA6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stanley Jackson";
+				TargetAttributes = {
+					F69BD8BF19BE31D8003BA6AF = {
+						TestTargetID = F69BD89E19BE31D8003BA6AF;
+					};
+				};
+			};
+			buildConfigurationList = F69BD89A19BE31D8003BA6AF /* Build configuration list for PBXProject "LakersVsCeltics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69BD89619BE31D8003BA6AF;
+			productRefGroup = F69BD8A019BE31D8003BA6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69BD89E19BE31D8003BA6AF /* LakersVsCeltics */,
+				F69BD8BF19BE31D8003BA6AF /* LakersVsCelticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69BD89D19BE31D8003BA6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BB193B19BE7119007DCF86 /* icon-120.png in Resources */,
+				F69BD8BB19BE31D8003BA6AF /* Images.xcassets in Resources */,
+				F6864E5A19BE590E00E7E622 /* lakers.png in Resources */,
+				F6864E5919BE590E00E7E622 /* celtics@2x.png in Resources */,
+				F6864E5819BE590E00E7E622 /* celtics.png in Resources */,
+				F69BD8AD19BE31D8003BA6AF /* InfoPlist.strings in Resources */,
+				F6864E5B19BE590E00E7E622 /* lakers@2x.png in Resources */,
+				F69BD8B619BE31D8003BA6AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD8BE19BE31D8003BA6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD8CC19BE31D8003BA6AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69BD89B19BE31D8003BA6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD8B319BE31D8003BA6AF /* SLJAppDelegate.m in Sources */,
+				F69BD8AF19BE31D8003BA6AF /* main.m in Sources */,
+				F69BD8B919BE31D8003BA6AF /* SLJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD8BC19BE31D8003BA6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD8CE19BE31D8003BA6AF /* LakersVsCelticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69BD8C619BE31D8003BA6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69BD89E19BE31D8003BA6AF /* LakersVsCeltics */;
+			targetProxy = F69BD8C519BE31D8003BA6AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69BD8AB19BE31D8003BA6AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69BD8AC19BE31D8003BA6AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F69BD8B419BE31D8003BA6AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69BD8B519BE31D8003BA6AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69BD8CA19BE31D8003BA6AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69BD8CB19BE31D8003BA6AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69BD8CF19BE31D8003BA6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69BD8D019BE31D8003BA6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69BD8D219BE31D8003BA6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LakersVsCeltics/LakersVsCeltics-Prefix.pch";
+				INFOPLIST_FILE = "LakersVsCeltics/LakersVsCeltics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F69BD8D319BE31D8003BA6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LakersVsCeltics/LakersVsCeltics-Prefix.pch";
+				INFOPLIST_FILE = "LakersVsCeltics/LakersVsCeltics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F69BD8D519BE31D8003BA6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LakersVsCeltics.app/LakersVsCeltics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LakersVsCeltics/LakersVsCeltics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LakersVsCelticsTests/LakersVsCelticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F69BD8D619BE31D8003BA6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LakersVsCeltics.app/LakersVsCeltics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LakersVsCeltics/LakersVsCeltics-Prefix.pch";
+				INFOPLIST_FILE = "LakersVsCelticsTests/LakersVsCelticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69BD89A19BE31D8003BA6AF /* Build configuration list for PBXProject "LakersVsCeltics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD8CF19BE31D8003BA6AF /* Debug */,
+				F69BD8D019BE31D8003BA6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BD8D119BE31D8003BA6AF /* Build configuration list for PBXNativeTarget "LakersVsCeltics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD8D219BE31D8003BA6AF /* Debug */,
+				F69BD8D319BE31D8003BA6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BD8D419BE31D8003BA6AF /* Build configuration list for PBXNativeTarget "LakersVsCelticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD8D519BE31D8003BA6AF /* Debug */,
+				F69BD8D619BE31D8003BA6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69BD89719BE31D8003BA6AF /* Project object */;
+}
